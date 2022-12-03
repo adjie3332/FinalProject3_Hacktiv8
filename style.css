@@ -1,0 +1,96 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+/* All */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    width: 100vw;
+}
+.btn-purple:hover{
+    color: white;
+    background-image: linear-gradient(225deg, #9233e6 0%, #e33491 100%);
+
+}
+/* Header */
+#navbarNav {
+    justify-content: end;
+    margin-right: 30px;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+}
+.btn-purple {
+    background-color: #e33491;
+    background-image: linear-gradient(225deg, #e33491 0%, #9233e6 100%);
+    color: white;
+}
+.nav-item .nav-link {
+    margin-left: 50px;
+}
+.nav-item .nav-link:hover {
+    color: #e33491;
+}
+.nav-item .btn-purple:hover {
+    color: white;
+    background-image: linear-gradient(225deg, #9233e6 0%, #e33491 100%);
+}   
+/* End Header */
+
+/* Banner */
+#banner {
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    position: relative;
+}
+#banner .row{
+    display: flex;
+    align-items: center;
+}
+#banner .row .content{
+    margin-left: 20px;
+}
+/* End Banner */
+
+/* About */
+#about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+#about .content {
+    padding-inline: 50px;
+    text-align: center;
+}
+#about .content h1 {
+    text-decoration-line: underline;
+    text-decoration-color: hotpink;
+}
+/* End About */
+
+/* Services */
+#services {
+    padding-top: 80px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(to bottom, #fff 50%, #020e36 50%);
+}
+#services h1{
+    text-decoration-line: underline;
+    text-decoration-color: hotpink;
+    padding-bottom: 40px;
+}
+.carousel-control-prev-icon {
+    background-color: #9233e6;
+}
+.carousel-control-next-icon {
+    background-color: #9233e6;
+}
