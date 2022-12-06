@@ -83,7 +83,7 @@ body {
     padding-bottom: 200px;
     background-image: linear-gradient(to bottom, #fff 50%, #020e36 50%);
 }
-#services h1{
+.title-section{
     text-decoration-line: underline;
     text-decoration-color: hotpink;
     padding-bottom: 40px;
@@ -93,4 +93,71 @@ body {
 }
 .carousel-control-next-icon {
     background-color: #9233e6;
+}
+
+#our-work {
+        padding-top: 80px;
+        padding-bottom: 200px;
+        background-color: #020e36;
+    }
+
+
+/* Section Question */
+/* Kolom 1 */
+.container-question {
+    font-family: "Basic";
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+.judul-kolom-1-question {
+    font-size: 30px;
+    line-height: 38px;
+    color: #020e35;
+}
+
+.title-kolom-1-question {
+    /* font-size: 30px; */
+    /* line-height: 110px; */
+    color: #020e35;
+}
+
+.hear {
+    /* font-size: 90px; */
+    line-height: 110px;
+    color: #e73587;
+}
+
+/* Kolom 2 */
+.form-label-question {
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 22px;
+    color: #2c3241;
+}
+
+.text-placeholder-question {
+    font-size: 18px;
+    line-height: 36px;
+    color: #2c3241;
+}
+
+.button-kolom-2-section-D {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+/* Footer */
+.container-footer {
+    background: #020e35;
+    margin-top: 94px;
+}
+
+.title-footer {
+    font-family: "Basic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
 }

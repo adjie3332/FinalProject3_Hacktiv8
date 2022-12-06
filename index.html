@@ -1,207 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- Font -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,400;0,500;0,600;0,700;1,200&display=swap"
-        rel="stylesheet" />
-    <!-- Icon -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- Font Awsome -->
-    <script src="https://kit.fontawesome.com/59f485dc95.js" crossorigin="anonymous"></script>
-    <!-- MDB -->
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css" rel="stylesheet"/> -->
-    <!-- Jquery -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"
-        integrity="sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,400;0,500;0,600;0,700;1,200&display=swap"
+    rel="stylesheet" />
+  <!-- Icon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Font Awsome -->
+  <script src="https://kit.fontawesome.com/59f485dc95.js" crossorigin="anonymous"></script>
+  <!-- MDB -->
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css" rel="stylesheet"/> -->
+  <!-- Jquery -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"
+    integrity="sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
+
 <body>
-    <!-- Header -->
-    <header class="fixed-top shadow">
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand fw-bold" href="index.html">
-              <img src="assets/logo.png" alt="logo" width="60" height="50"
-                class="d-inline-block align-text-top me-2">Coding.in
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link fw-bold" href="index.html">HOME</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fw-bold" href="#about">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fw-bold" href="#services">SERVICES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fw-bold" href="#porto">PORTOFOLIO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fw-bold" href="#contact"><button class="btn btn-purple">CONTACT US</button></a>
-                </li>
-              </ul>
+  <!-- Header -->
+  <header class="fixed-top shadow">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="index.html">
+          <img src="assets/logo.png" alt="logo" width="60" height="50"
+            class="d-inline-block align-text-top me-2">Coding.in
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#our-work">PORTOFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#contact"><button class="btn btn-purple">CONTACT US</button></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Banner -->
+  <section id="banner">
+    <div class="row">
+      <div class="col content" data-aos="fade-right">
+        <div class="typed_wrap">
+          <h1 class="display-4">Let's learn <span class="typed"></span></h1>
+          <p>More than 100 alumni have successfully become digital talents</p>
+          <button class="btn btn-purple">Join Now</button>
+        </div>
+      </div>
+      <div class="col">
+        <img src="assets/banner.png" alt="" width="100%">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- About -->
+  <section id="about" class="mb-5">
+    <div class="content">
+      <h1 class="text-center title-section" data-aos="fade-up">About Us</h1>
+      <h4 class="text-center" data-aos="fade-up">Coding.in is a startup company that aims to develop a developer
+        ecosystem in Indonesia. Founded on January 5, 2022, Coding.in has an electronic learning platform on the
+        Coding-in.com page.</h4>
+      <hr>
+      <h2 data-aos="fade-up">Support By</h2>
+      <div class="row">
+        <div class="col" data-aos="fade-up">
+          <img src="assets/google.png" alt="">
+        </div>
+        <div class="col" data-aos="fade-up">
+          <img src="assets/microsoft.png" alt="">
+        </div>
+        <div class="col" data-aos="fade-up">
+          <img src="assets/kampus-merdeka.png" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h1 class="text-center title-section" data-aos="fade-up">Our Valuable Services</h1>
+    <div class="content" data-aos="fade-up">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <div class="card" style="background-color: #fdf8e3; align-items: center;">
+                    <img src="assets/mobile.png" class="card-image" style="width:400px;height:400px;">
+                    <div class="card-body text-center">
+
+                      <h2 class="card-title">Mobile Development</h2>
+                      <p class="card-text">Program to make you a Professional Mobile Developer by studying for 6 months.
+                      </p>
+                      <button class="btn btn-purple">Join Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card" style="background-color: #f0f3fa; align-items: center;">
+                    <img src="assets/ui-ux.png" class="card-image" style="width:400px;height:400px;">
+                    <div class="card-body text-center">
+
+                      <h2 class="card-title">UI/UX Design</h2>
+                      <p class="card-text">Program to make you a Professional UI/UX Designer by studying for 6 months.
+                      </p>
+                      <button class="btn btn-purple">Join Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card" style="background-color: #fef0f0; align-items: center;">
+                    <img src="assets/web.png" class="card-image" style="width:400px;height:400px;">
+                    <div class="card-body text-center">
+
+                      <h2 class="card-title">Web Developer</h2>
+                      <p class="card-text">Program to make you a Professional Web Developer by studying for 6 months.
+                      </p>
+                      <button class="btn btn-purple">Join Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </nav>
-    </header>
-    
-    <!-- Banner -->
-    <section id="banner">
-        <div class="row">
-            <div class="col content" data-aos="fade-right">
-                <div class="typed_wrap">
-                    <h1 class="display-4">Let's learn <span class="typed"></span></h1>
-                </div>
-                <p>More than 100 alumni have successfully become digital talents</p>
-                    <button class="btn btn-purple">Join Now</button> 
-            </div>
-            <div class="col">
-                <img src="assets/banner.png" alt="" width="100%">
-            </div>    
-        </div>    
-                 
-    </section>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <div class="card" style="background-color: #F0FFFF; align-items: center;">
+                    <img src="assets/frontend.png" class="card-image" style="width:400px;height:400px;">
+                    <div class="card-body text-center">
 
-    <!-- About -->
-    <section id="about">
-        <div class="content">
-            <h1 class="text-center"  data-aos="fade-up">About Us</h1>
-            <h4 class="text-center"  data-aos="fade-up">Coding.in is a startup company that aims to develop a developer ecosystem in Indonesia. Founded on January 5, 2022, Coding.in has an electronic learning platform on the Coding-in.com page.</h4><hr>
-            <h2  data-aos="fade-up">Support By</h2>
-            <div class="row">
-                <div class="col"  data-aos="fade-up">
-                    <img src="assets/google.png" alt="">
-                </div>
-                <div class="col"  data-aos="fade-up">
-                    <img src="assets/microsoft.png" alt="">
-                </div>
-                <div class="col"  data-aos="fade-up">
-                    <img src="assets/kampus-merdeka.png" alt="">
-                </div>
-            </div>
-        </div>
-        
-    </section>
-
-    <!-- Services -->
-    <section id="services">
-        <h1 class="text-center"  data-aos="fade-up">Our Valuable Services</h1>
-        <div class="content"  data-aos="fade-up">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="container">
-                        <div class="row">
-                          <div class="col">
-                            <div class="card" style="background-color: #fdf8e3; align-items: center;">
-                                <img src="assets/mobile.png" class="card-image" style="width:400px;height:400px;" >
-                                <div class="card-body text-center">
-                                
-                                <h2 class="card-title">Mobile Development</h2>
-                                <p class="card-text">Program to make you a Professional Mobile Developer by studying for 6 months.</p>
-                                <button class="btn btn-purple">Join Now</button>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" style="background-color: #f0f3fa; align-items: center;">
-                                <img src="assets/ui-ux.png" class="card-image" style="width:400px;height:400px;" >
-                                <div class="card-body text-center">
-                                
-                                <h2 class="card-title">UI/UX Design</h2>
-                                <p class="card-text">Program to make you a Professional UI/UX Designer by studying for 6 months.</p>
-                                <button class="btn btn-purple">Join Now</button>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" style="background-color: #fef0f0; align-items: center;">
-                                <img src="assets/web.png" class="card-image" style="width:400px;height:400px;" >
-                                <div class="card-body text-center">
-                                
-                                <h2 class="card-title">Web Developer</h2>
-                                <p class="card-text">Program to make you a Professional Web Developer by studying for 6 months.</p>
-                                <button class="btn btn-purple">Join Now</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="container">
-                        <div class="row">
-                          <div class="col">
-                            <div class="card" style="background-color: #F0FFFF; align-items: center;">
-                                <img src="assets/frontend.png" class="card-image" style="width:400px;height:400px;" >
-                                <div class="card-body text-center">
-                                
-                                <h2 class="card-title">Front End Developer</h2>
-                                <p class="card-text">Program to make you a Professional Front End Developer by studying for 6 months.</p>
-                                <button class="btn btn-purple">Join Now</button>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" style="background-color: #7FFFD4; align-items: center;">
-                                <img src="assets/backend.png" class="card-image" style="width:400px;height:400px;" >
-                                <div class="card-body text-center">
-                                
-                                <h2 class="card-title">Back End Developer</h2>
-                                <p class="card-text">Program to make you a Professional Back End Developer by studying for 6 months.</p>
-                                <button class="btn btn-purple">Join Now</button>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col">
-                            <div class="card" style="background-color: 	#AFEEEE; align-items: center;">
-                                <img src="assets/cyber.png" class="card-image" style="width:400px;height:400px;" >
-                                <div class="card-body text-center">
-                                
-                                <h2 class="card-title">Cyber Security</h2>
-                                <p class="card-text">Program to make you a Professional Cyber Security by studying for 6 months.</p>
-                                <button class="btn btn-purple">Join Now</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <h2 class="card-title">Front End Developer</h2>
+                      <p class="card-text">Program to make you a Professional Front End Developer by studying for 6
+                        months.</p>
+                      <button class="btn btn-purple">Join Now</button>
                     </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+                <div class="col">
+                  <div class="card" style="background-color: #7FFFD4; align-items: center;">
+                    <img src="assets/backend.png" class="card-image" style="width:400px;height:400px;">
+                    <div class="card-body text-center">
+
+                      <h2 class="card-title">Back End Developer</h2>
+                      <p class="card-text">Program to make you a Professional Back End Developer by studying for 6
+                        months.</p>
+                      <button class="btn btn-purple">Join Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card" style="background-color: 	#AFEEEE; align-items: center;">
+                    <img src="assets/cyber.png" class="card-image" style="width:400px;height:400px;">
+                    <div class="card-body text-center">
+
+                      <h2 class="card-title">Cyber Security</h2>
+                      <p class="card-text">Program to make you a Professional Cyber Security by studying for 6 months.
+                      </p>
+                      <button class="btn btn-purple">Join Now</button>
+                    </div>
+                  </div>
+                </div>
               </div>
-            
-    </section>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+  </section>
+
+  <!-- Our Work -->
+  <section id="our-work" class="mb-5 text-light">
+    <h1 class="text-center title-section" data-aos="fade-up">Our Work</h1>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 col-sm-6">
+          <img src="./assets/our-work1.png" alt="our-work1" class="img-fluid">
+        </div>
+        <div class="col-12 col-sm-6">
+          <h2>Brand Name</h2>
+          <p>IOS | ANDROID | WEB DEVELOPMENT</p>
+          <P>Aplikasi yang sangat berguna untuk keperluan anda dalam mengatur rutinitas agar teratur dan berjalan dengan
+            baik, sangat mudah digunakan dan tidak membuat anda pusing.</P>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-12 col-sm-6">
+          <h2>Brand Name</h2>
+          <p>IOS | ANDROID | WEB DEVELOPMENT</p>
+          <P>Aplikasi yang sangat berguna untuk keperluan anda dalam mengatur rutinitas agar teratur dan berjalan dengan
+            baik,
+            sangat mudah digunakan dan tidak membuat anda pusing.</P>
+        </div>
+        <div class="col-12 col-sm-6">
+          <img src="./assets/our-work2.png" alt="our-work2" class="img-fluid">
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-12 col-sm-6">
+          <img src="./assets/our-work3.png" alt="our-work3" class="img-fluid">
+        </div>
+        <div class="col-12 col-sm-6">
+          <h2>Brand Name</h2>
+          <p>IOS | ANDROID | WEB DEVELOPMENT</p>
+          <P>Aplikasi yang sangat berguna untuk keperluan anda dalam mengatur rutinitas agar teratur dan berjalan dengan
+            baik, sangat mudah digunakan dan tidak membuat anda pusing.</P>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-12 col-sm-6">
+          <h2>Brand Name</h2>
+          <p>IOS | ANDROID | WEB DEVELOPMENT</p>
+          <P>Aplikasi yang sangat berguna untuk keperluan anda dalam mengatur rutinitas agar teratur dan berjalan dengan
+            baik,
+            sangat mudah digunakan dan tidak membuat anda pusing.</P>
+        </div>
+        <div class="col-12 col-sm-6">
+          <img src="./assets/our-work4.png" alt="our-work4" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Questions -->
+  <section id="qna">
+      <div class="container">
+        <div class="container-question row justify-content-evenly">
+          <div class="kolom-1-question col-md-6">
+            <p class="judul-kolom-1-question">Questions, Comments, Concerns?</p>
+            <p class="title-kolom-1-question display-1">
+              We’d love to
+              <span class="hear">hear</span>
+              from you!
+            </p>
+          </div>
+          <div class="kolom-2-question col-md-6">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label-question form-label">
+                Your Email Address
+              </label>
+              <input type="email" class="text-placeholder-question form-control" id="exampleFormControlInput1"
+                placeholder="name@example.com" />
+            </div>
+            <div class="mb-3">
+              <label for="inputPassword5" class="form-label-question form-label">
+                Subject
+              </label>
+              <input type="password" id="inputPassword5" class="form-control text-placeholder-question"
+                aria-describedby="passwordHelpBlock" placeholder="Question about your article" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label-question form-label">
+                Message
+              </label>
+              <textarea class="form-control text-placeholder-question" id="exampleFormControlTextarea1" rows="8"
+                placeholder="Your message starts with…"></textarea>
+            </div>
+            <div class="d-grid gap-2 col-12 mx-auto">
+              <button class="button-kolom-2-section-D btn btn-primary" type="button">
+                Send a Message
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
 
 
-    <!-- Source Image
+  <!-- Section Footer -->
+  <footer>
+    <div class="container-footer col-12">
+      <h3 class="title-footer container pt-2 pb-2">
+        2022 © All rights reserved Final Project 3 Hacktiv8
+      </h3>
+    </div>
+  </footer>
+
+
+  <!-- Source Image
     Banner          : https://in.pinterest.com/pin/525443481527882404/
     Mobile          : https://storyset.com/illustration/development/amico
     Web             : https://storyset.com/illustration/open-source/amico
@@ -209,13 +329,14 @@
     BackEnd         : https://storyset.com/illustration/software-code-testing/amico
     Cyber           : https://storyset.com/illustration/software-code-testing/amico
     -->
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
