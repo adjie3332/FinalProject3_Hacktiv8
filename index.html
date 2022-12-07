@@ -18,6 +18,9 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+  <!-- Carousel -->
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
   <!-- AOS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Font Awsome -->
@@ -67,6 +70,81 @@
     </nav>
   </header>
 
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Join Now</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="needs-validation" novalidate>
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                <label for="validationCustom01">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="First name"
+                  required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationCustom02">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"
+                  required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationCustomUsername">Username</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  </div>
+                  <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username"
+                    aria-describedby="inputGroupPrepend" required>
+                  <div class="invalid-feedback">
+                    Please choose a username.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationCustom03">City</label>
+                <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+                <div class="invalid-feedback">
+                  Please provide a valid city.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationCustom04">State</label>
+                <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+                <div class="invalid-feedback">
+                  Please provide a valid state.
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary btn-sm" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Banner -->
   <section id="banner">
     <div class="row">
@@ -74,7 +152,9 @@
         <div class="typed_wrap">
           <h1 class="display-4">Let's learn <span class="typed"></span></h1>
           <p>More than 100 alumni have successfully become digital talents</p>
-          <button class="btn btn-purple">Join Now</button>
+          <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Join Now
+          </button>
         </div>
       </div>
       <div class="col">
@@ -90,8 +170,19 @@
       <h1 class="text-center title-section" data-aos="fade-up">About Us</h1>
       <h4 class="text-center" data-aos="fade-up">Coding.in is a startup company that aims to develop a developer
         ecosystem in Indonesia. Founded on January 5, 2022, Coding.in has an electronic learning platform on the
-        Coding-in.com page.</h4>
-      <hr>
+        Coding-in.com page.
+      </h4>
+      <h4 class="text-center" data-aos="fade-up">
+        Coding.in's vision is to become a leading technology education platform that promotes greater access to digital literacy for all. Coding.in has a mission to accelerate Indonesia's transition to a digital world through technology education that transforms lives.
+      </h4>
+      <h4 class="text-center" data-aos="fade-up">
+        Now all nations are moving towards a digital world that is based on technological innovation in all walks of life. We believe that technology education is the foundation for every nation to be at the forefront of facing the digital world.
+      </h4>
+      <h4 class="text-center" data-aos="fade-up">
+        Coding.in exists as a technology education platform that helps produce global-standard digital talent. All for the sake of accelerating Indonesia to be at the forefront.
+      </h4>
+    </div>
+    <div class="support">
       <h2 data-aos="fade-up">Support By</h2>
       <div class="row">
         <div class="col" data-aos="fade-up">
@@ -104,8 +195,18 @@
           <img src="assets/kampus-merdeka.png" alt="">
         </div>
       </div>
+      <div class="row">
+        <div class="col" data-aos="fade-up">
+          <img src="assets/kominfo.png" alt="">
+        </div>
+        <div class="col" data-aos="fade-up">
+          <img src="assets/lenovo.png" alt="">
+        </div>
+        <div class="col" data-aos="fade-up">
+          <img src="assets/telkom.png" alt="">
+        </div>
+      </div>
     </div>
-
   </section>
 
   <!-- Services -->
@@ -125,7 +226,9 @@
                       <h2 class="card-title">Mobile Development</h2>
                       <p class="card-text">Program to make you a Professional Mobile Developer by studying for 6 months.
                       </p>
-                      <button class="btn btn-purple">Join Now</button>
+                      <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Join Now
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -137,7 +240,9 @@
                       <h2 class="card-title">UI/UX Design</h2>
                       <p class="card-text">Program to make you a Professional UI/UX Designer by studying for 6 months.
                       </p>
-                      <button class="btn btn-purple">Join Now</button>
+                      <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Join Now
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -149,7 +254,9 @@
                       <h2 class="card-title">Web Developer</h2>
                       <p class="card-text">Program to make you a Professional Web Developer by studying for 6 months.
                       </p>
-                      <button class="btn btn-purple">Join Now</button>
+                      <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Join Now
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -167,7 +274,9 @@
                       <h2 class="card-title">Front End Developer</h2>
                       <p class="card-text">Program to make you a Professional Front End Developer by studying for 6
                         months.</p>
-                      <button class="btn btn-purple">Join Now</button>
+                        <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Join Now
+                        </button>
                     </div>
                   </div>
                 </div>
@@ -179,7 +288,9 @@
                       <h2 class="card-title">Back End Developer</h2>
                       <p class="card-text">Program to make you a Professional Back End Developer by studying for 6
                         months.</p>
-                      <button class="btn btn-purple">Join Now</button>
+                        <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Join Now
+                        </button>
                     </div>
                   </div>
                 </div>
@@ -191,7 +302,9 @@
                       <h2 class="card-title">Cyber Security</h2>
                       <p class="card-text">Program to make you a Professional Cyber Security by studying for 6 months.
                       </p>
-                      <button class="btn btn-purple">Join Now</button>
+                      <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Join Now
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -337,6 +450,8 @@
   <script>
     AOS.init();
   </script>
+  <script src="jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
 </body>
 
 </html>

@@ -75,6 +75,11 @@ body {
     text-decoration-line: underline;
     text-decoration-color: hotpink;
 }
+.support {
+    text-align: center;
+    color: #fff;
+    background-color: #020e35;
+}
 /* End About */
 
 /* Services */
